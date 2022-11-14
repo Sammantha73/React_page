@@ -1,12 +1,63 @@
+.card-img-top{
+    width: 188px;
+    margin-left: 42px;
+}
 
-/* 
+.card{
+    width: 266px;
+    height: 30em;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.card-body{
+    text-align: center;
+}
 
-*/
+#cards{
+    display: flex;
+    margin-top: 13px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#NavBar{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    background-color: #3e3a3a;
+
+}
+.nav-link{
+    color: aliceblue;
+    
+}
+#contenedor{
+    width: 71em;
+    
+    margin-left: 344px;
+}
+#Jumb
+{
+    background-color: #c1c1c1;
+}
+#ContJum{
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #c1c1c1;
+    height: 212px;
+    border-radius: 9px;
+}
+.card-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 203px;
+    align-items: flex-end;
+}
+
+footer{
+    BACKGROUND: #3e3a3a;
+    TEXT-ALIGN: CENTER;
+    color: aliceblue;
+}
